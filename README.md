@@ -1,5 +1,5 @@
-# Smart Credit Risk Scoring Project: A Machine Learning Approach to Predicting Defaults to Empower Ethical Lending
-![Credit_scores](image/Credit_scors.png)
+# Smart Credit Risk Scoring Project with Machine Learning to Predict Defaults and Empower Ethical Lending
+![Credit_scores](images/Credit_scores.png)
 
 ## Overview
 
