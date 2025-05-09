@@ -1,5 +1,5 @@
 # Smart Credit Risk Scoring Project: A Machine Learning Approach to Predicting Defaults to Empower Ethical Lending
-![Credit_score](./Credit_score.png)
+                       ![Credit_score](images/Credit_scores.png)
 
 ## Overview
 
@@ -47,6 +47,7 @@ To create a robust model, we followed the CRISP-DM methodology:
    - **Random Forest Classifier** (Ensemble Model)
 4. **Hyperparameter Tuning**: GridSearchCV was used to fine-tune the Random Forest model.
 
+![Models](images/Models.png)
 We selected Random Forest for its ability to handle non-linear relationships and feature interactions without requiring intensive preprocessing.
 
 ---
@@ -66,6 +67,7 @@ We evaluated models using metrics aligned with our business objective of **ident
 | SMOTE + Logistic Reg.     | 0.860    | 0.17          | 0.88       | 0.29         | N/A       |
 | **SMOTE + Random Forest** | **0.905**| **0.22**      | **0.73**   | **0.34**     | **0.91**  |
 
+![Evaluate](images/Credit_scores.png)
 While the precision remains moderate, the recall and AUC of the Random Forest model make it a powerful tool to **minimize false negatives**—a key business priority.
 
 ### Feature Importance
